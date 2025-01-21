@@ -16,8 +16,8 @@ const Calendar = () => {
     return intervalIndex % 2 === 0 ? "Noche" : "Día";
   };
   
-  const minDate = startOfYear(new Date(2024, 0, 1)); // 1 de enero de 2024
-  const maxDate = endOfYear(new Date(2024, 11, 31)); // 31 de diciembre de 2024
+  const minDate = startOfYear(new Date(2025, 0, 1)); // 1 de enero de 2024
+  const maxDate = endOfYear(new Date(2025, 11, 31)); // 31 de diciembre de 2024
 
 
   const handleChange = (date) => {
@@ -48,7 +48,7 @@ const Calendar = () => {
   return (
     <>
     <div>
-      <h1> Matriz 2024</h1>
+      <h1> Matriz 2025</h1>
       <h2>Seleccioná el día:</h2>
       <DatePicker
         selected={startDate}
